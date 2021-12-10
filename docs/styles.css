@@ -1,0 +1,61 @@
+.bg-overlay {
+    background: url("oldtimey_worldmap.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.jumbotron {
+    background-color: rgba(65, 58, 36, 0.5) !important;
+    color: white;
+    border-block: 3px;
+    border-block-width: 3px;
+    border-color: rgb(192, 189, 159);
+}
+
+.text-warning{
+
+    text-align: center;
+    
+}
+
+.display-4 {
+    text-align: center;
+}
+
+.text-danger-50 {
+    color: rgb(252, 99, 99);
+    text-align: center;
+}
+.text-success-50 {
+    color: rgb(161, 154, 250);
+    text-align: center;
+}
+
+.text-primary-50 {
+    color: rgb(201, 219, 243);
+    text-align: center;
+}
+
+.rule {
+    overflow: visible;
+    /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+.rule:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
